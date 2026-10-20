@@ -36,6 +36,8 @@ def main():
     ap.add_argument('config')
     ap.add_argument('--capitulos', help='números a incluir, ex.: 12 ou 01,02 (padrão: todos com fragmento)')
     ap.add_argument('--saida')
+    ap.add_argument('--so-capitulos', action='store_true',
+                    help='só as páginas dos capítulos (prévia para revisão); capa e sumário entram só no livro completo')
     a = ap.parse_args()
     base = os.path.dirname(os.path.abspath(a.config))
     cfg = json.load(open(a.config, encoding='utf-8'))
@@ -125,6 +127,8 @@ def main():
             '&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">'
             f'<link rel="stylesheet" href="style.css"><style>:root{{--tema:{tema_cor}}}</style></head><body>\n')
     saida = a.saida or os.path.join(base, 'livro.html')
+    if a.so_capitulos:
+        pages = []
     open(saida, 'w', encoding='utf-8').write(head + '\n'.join(pages) + corpo + '</body></html>')
     print(f'ok: {saida} | último capítulo termina na página {pg-1}')
 

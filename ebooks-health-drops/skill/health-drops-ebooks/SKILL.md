@@ -18,6 +18,7 @@ O usuário é profissional de saúde e professor. Ele julga pelo PDF renderizado
 - **Cabeçalho:** gota + nome do e-book à esquerda; etiqueta com o **tema do capítulo** à direita (ex.: JOELHO).
 - **Rodapé:** nome do e-book + número da página.
 - **Paleta:** areia `#f1ebdf`, papel `#fcfaf5`, tinta `#1d2b3a`, ouro `#b8923f`, clay `#c23a32`; cor-tema por e-book (fisioterapia desportiva: azul-aço `#2d4a7a`). Fontes: Fraunces (títulos), Inter (corpo), JetBrains Mono (detalhes).
+- **Um livro, uma capa:** o e-book é um volume único, com uma capa e um sumário só. Prévias de capítulo para revisão saem **sem capa e sem sumário** (`--so-capitulos`), já com a numeração de páginas do livro.
 - **Tamanho:** não há meta de páginas; depende do tema. Capítulos de lesão/doença completos ficam com ~25–30 páginas; capítulos de base são mais enxutos.
 
 ## Fluxo de trabalho
@@ -31,7 +32,8 @@ O usuário é profissional de saúde e professor. Ele julga pelo PDF renderizado
    ```bash
    # projeto: pasta com livro.json, fragmentos capNN.html e img/
    python3 scripts/refs_fix.py capNN.html          # numera as citações na ordem de aparição
-   python3 scripts/build_ebook.py livro.json --capitulos NN   # capa + sumário + capítulo(s)
+   python3 scripts/build_ebook.py livro.json --capitulos NN --so-capitulos --saida capNN-teste.html   # prévia: só o capítulo
+   python3 scripts/build_ebook.py livro.json                  # livro completo: capa + sumário + todos os capítulos
    PW_PATH=<caminho do playwright> node scripts/render.js livro.html livro.pdf
    ```
    `render.js` imprime, por página, quantos pixels o conteúdo passou do limite (`overflowPx` > 0 = texto cortado). Corrija enxugando texto, dividindo a página ou reduzindo a tabela; nunca entregue com overflow. Se `build_ebook.py` avisar que o sumário mudou de tamanho, ajuste `paginas_sumario` no JSON e rode de novo (a numeração das páginas depende disso).

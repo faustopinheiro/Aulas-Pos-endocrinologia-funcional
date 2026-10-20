@@ -29,16 +29,17 @@
     {
      "n": "02",
      "titulo": "Biomecânica do gesto esportivo",
-     "tema": "Biomecânica do gesto esportivo",
+     "tema": "Biomecânica",
      "paginas": 9,
      "topicos": [
-      "Força de reação do solo, momentos e potência articular",
-      "Corrida: padrão de apoio, cadência e calçado; retreinamento da marcha como tratamento",
-      "Salto, aterrissagem e mudança de direção: corrigir o valgo dinâmico",
-      "Arremesso e gestos acima da cabeça: a cadeia cinética na reabilitação",
-      "Ciclismo, natação, raquete e combate: padrões de sobrecarga e ajustes",
-      "Análise de vídeo 2D no consultório"
-     ]
+      "Força de reação do solo, momentos articulares e redistribuição de carga",
+      "Corrida: padrão de apoio, overstride, cadência e calçado",
+      "Retreinamento da marcha como tratamento: indicações, 8 sessões e retirada do feedback",
+      "Salto e aterrissagem: valgo dinâmico, progressão em 5 degraus e foco externo",
+      "Mudança de direção e arremesso: frenagem no penúltimo apoio e cadeia cinética",
+      "Ciclismo, natação, raquete e combate; análise de vídeo 2D no consultório"
+     ],
+     "fragmento": "cap02.html"
     },
     {
      "n": "03",
