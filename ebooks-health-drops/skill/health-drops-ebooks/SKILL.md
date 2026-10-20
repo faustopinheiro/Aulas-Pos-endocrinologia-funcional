@@ -24,8 +24,8 @@ O usuário é profissional de saúde e professor. Ele julga pelo PDF renderizado
 
 1. **Entender o pedido:** área, tema, público (graduação, pós, prova de título), escopo (estrutura, um capítulo, o livro todo).
 2. **Estrutura do livro** (quando for livro novo): pesquise grades de pós-graduação, conteúdo de prova de título/residência, competências da profissão e sumários dos livros-texto de referência. Proponha partes → capítulos → tópicos com **o tratamento escrito nos tópicos** (o usuário rejeitou estruturas que só listavam doenças). Mostre a estrutura num PDF curto antes de produzir capítulos.
-3. **Escrever o capítulo** como fragmento HTML seguindo `references/padrao-capitulo.md`. Use `assets/exemplo-capitulo-joelho.html` como modelo de todos os componentes (é o capítulo aprovado). Leia `references/ciencia-e-referencias.md` antes de escrever.
-4. **Plano visual:** antes de gerar qualquer imagem, faça o plano de imagens e diagramas do capítulo seguindo `references/imagens-e-diagramas.md`. Regra do usuário: **alternar estilos de imagem (não só 3D) e ter diagramas** em todo capítulo.
+3. **Escrever o capítulo** como fragmento HTML seguindo `references/padrao-capitulo.md`. O **modelo oficial** é `assets/exemplo-capitulo-tornozelo.html` (capítulo 13, aprovado pelo usuário como "o modelo": estilos de imagem alternados, 7 diagramas, esquema desenhado na biblioteca). `assets/exemplo-capitulo-joelho.html` serve de segundo exemplo de componentes. Leia `references/ciencia-e-referencias.md` antes de escrever.
+4. **Plano visual e orçamento:** antes de gerar qualquer imagem, faça o plano de imagens e diagramas do capítulo seguindo `references/imagens-e-diagramas.md`. Regras do usuário: **alternar estilos de imagem (não só 3D)** e **muitos diagramas e esquemas** (mínimo de 8 por capítulo, um em cada seção). **Economia de créditos:** o usuário pediu para gerar no Gamma só o que for realmente necessário — em geral só a abertura do capítulo; o resto em SVG (diagramas, esquemas, bonecos de exercício) ou reaproveitando imagens já geradas. Cada imagem custa ~70 créditos; confira o saldo (vem em toda resposta de geração). Capítulos de base pedem menos imagens e mais diagramas; capítulos de lesão pedem biblioteca ilustrada.
 5. **Gerar imagens no Gamma em paralelo**, baixar, redimensionar e conferir cada uma (contact sheet). Refaça a que estiver anatomicamente ou tecnicamente errada.
 6. **Montar e renderizar:**
    ```bash
@@ -44,7 +44,8 @@ O usuário é profissional de saúde e professor. Ele julga pelo PDF renderizado
 - `scripts/render.js` — HTML → PDF A4 (Playwright/Chromium), espera as fontes e mede overflow por página.
 - `scripts/refs_fix.py` — renumera citações (Vancouver por ordem de aparição) e divide a lista de referências em páginas.
 - `assets/style.css` — todo o CSS dos componentes.
-- `assets/exemplo-capitulo-joelho.html` — capítulo modelo completo (28 páginas) com todos os componentes.
+- `assets/exemplo-capitulo-tornozelo.html` — **modelo oficial** (capítulo 13, 28 páginas): alternância de estilos de imagem, diagramas (mapa anatômico esquemático, fluxograma, fases, gráfico de risco relativo, termômetro da dor, resumo visual, mapa mental) e esquema SVG dentro do cartão da biblioteca.
+- `assets/exemplo-capitulo-joelho.html` — segundo exemplo (capítulo 12, 28 páginas) com todos os componentes.
 - `assets/livro.exemplo.json` — configuração do e-book Fisioterapia Desportiva (19 capítulos, 7 partes).
 - `assets/logo-health-drops.svg` — logo para usos fora do PDF.
 - `references/padrao-capitulo.md` — estrutura do capítulo, componentes e regras de diagramação.
@@ -55,7 +56,7 @@ O usuário é profissional de saúde e professor. Ele julga pelo PDF renderizado
 
 - **Download do Gamma bloqueado:** se `curl` para `cdn.gamma.app` der 403, a rede do ambiente não libera o domínio. Peça ao usuário para adicionar `*.gamma.app` em Allowed domains (rede Custom) nas configurações do ambiente e abrir sessão nova; enquanto isso, ofereça que ele baixe a imagem e anexe no chat. Não monte o livro dentro do Gamma: a diagramação de lá sobrepõe cabeçalho e título e o usuário rejeitou.
 - **"Capa" no prompt gera mockup** (livro sobre a mesa). Descreva só a cena, "full-bleed", "no text".
-- **Imagens de exercício erradas** acontecem (ex.: perna fora do banco no Copenhagen). Confira cada uma e refaça com descrição mais literal.
+- **Imagens de exercício erradas** acontecem (ex.: perna fora do banco no Copenhagen; lunge na parede sem o joelho tocar a parede). Confira cada uma e refaça uma vez com descrição mais literal. **Se errar de novo, troque por um esquema SVG desenhado** dentro do próprio cartão (`.exi` com `<svg>`), como no exercício 2 do capítulo 13: é mais preciso e não gasta crédito.
 - **Gradiente em linha horizontal some** no SVG se não usar `gradientUnits="userSpaceOnUse"` com x1/x2 reais.
 - **Células com rowspan** mudam o "primeiro filho" da linha: use a tabela `tt ex` com `td.es` para a coluna agrupada (ver exemplo de testes clínicos).
 - Cada imagem custa ~70 créditos no Gamma; informe o saldo que vem na resposta.

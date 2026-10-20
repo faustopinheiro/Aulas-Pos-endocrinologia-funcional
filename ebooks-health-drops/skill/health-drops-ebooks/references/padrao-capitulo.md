@@ -21,7 +21,7 @@ O capítulo modelo é `assets/exemplo-capitulo-joelho.html`. Abra-o e copie os c
 | | Prevenção | Evidência, componentes, dose mínima eficaz e exemplo de sessão. |
 | | Analgesia e eletroterapia | Modelo de monitoramento da dor; tabela recurso → indicação → como usar (parâmetros) → evidência; medicamentos e infiltrações; Atenção "recurso não substitui exercício". |
 | | O que há de novo e o futuro | Imagem + tabela tema → o que mostra → situação ("Já muda a prática", "Promissor", "Experimental") + Dica "como ler novidades". |
-| | Biblioteca de exercícios (1–2 páginas) | Cartões `.exc`: imagem, nome numerado, fase, execução, dose, progressão. 4–5 por página. |
+| | Biblioteca de exercícios (1–2 páginas) | Cartões `.exc`: imagem (de preferência **esquema SVG** do exercício, para poupar créditos), nome numerado, fase, execução, dose, progressão. 4–5 por página. |
 | | Protocolos detalhados (1–2 páginas) | Ex.: retorno à corrida por níveis, progressão de pliometria, semana-modelo, programa de 12 semanas. Tabelas com regra de progressão e de recuo. |
 | | Na prática | Passos numerados do primeiro dia à alta + tabela de erros comuns. |
 | | Caso clínico comentado | Caso com tabela de achados e um bloco "RACIOCÍNIO" que usa números e decide. |
@@ -31,7 +31,7 @@ O capítulo modelo é `assets/exemplo-capitulo-joelho.html`. Abra-o e copie os c
 | | Mapa mental | SVG com o tema no centro e 6–8 ramos. |
 | | Referências (1–2 páginas) | Lista Vancouver numerada na ordem de aparição. |
 
-Capítulos de base (atuação, avaliação geral, emergências) seguem a mesma lógica, sem o plano por fases; mantêm abertura, conteúdo, diagramas, Na prática, caso, questões, revisão, resumo visual e referências.
+Capítulos de base (atuação, biomecânica, reparo, dor, avaliação, carga, exercício, recursos, emergências) seguem a mesma lógica sem o plano por fases de uma lesão: abertura → seções de conteúdo, cada uma com um diagrama, tabela ou caixa → "ferramentas para o consultório" (escalas, checklists, fluxos que o leitor aplica amanhã) → novidades → Na prática → caso clínico → 5–6 questões → revisão → resumo visual → mapa mental → referências. Têm de 14 a 20 páginas e devem ensinar a fazer, não só a saber. Os capítulos de tecido (lesão muscular, tendão, osso) seguem o formato completo de lesão, com biblioteca e protocolos.
 
 ## 2. Formato de tratamento em seis partes (toda condição)
 

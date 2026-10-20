@@ -2,6 +2,17 @@
 
 O usuário pediu explicitamente: **alternar os estilos de imagem (não ter só imagens 3D) e ter diagramas em todos os capítulos.** Um livro só com renderizações 3D fica repetitivo e "não gera vontade de ver"; a variação dá ritmo e mostra o conteúdo de ângulos diferentes. Diagramas são o que o leitor salva e estuda.
 
+## 0. Economia de créditos (regra do usuário, vale acima das metas abaixo)
+
+O usuário pediu: **use o Gamma só quando a imagem for realmente necessária**, porque os créditos são limitados (~70 por imagem).
+
+- **Padrão:** 1 imagem gerada por capítulo (a abertura). No máximo 2–3 quando uma figura não puder ser substituída (ex.: microscopia de um tecido que o texto discute, fotografia clínica de um procedimento difícil de desenhar).
+- **Primeiro, reaproveite:** imagens já geradas em capítulos anteriores do mesmo e-book (pasta `img/`) servem para aberturas de parte, figuras de contexto e cartões repetidos.
+- **Todo o resto em SVG:** diagramas, mapas anatômicos esquemáticos, esquemas de testes e de exercícios (biblioteca com bonecos esquemáticos: segmentos como linhas grossas arredondadas, articulações em círculos, setas e cotas em dourado), ícones e infográficos.
+- A alternância de estilos continua valendo: ela passa a ser feita entre **a imagem de abertura, os diagramas, os esquemas e as imagens reaproveitadas**, e não exige novas gerações.
+- Ao entregar, informe quantas imagens foram geradas e o saldo.
+- **Mais diagramas e esquemas** (pedido do usuário): mínimo de **8 diagramas/esquemas SVG por capítulo**, e toda seção de conteúdo com pelo menos um elemento desenhado (fluxo, ciclo, pirâmide, matriz, linha do tempo, gráfico, mapa anatômico, esquema de teste ou exercício). Tabelas não contam como diagrama.
+
 ## 1. Plano visual do capítulo (faça antes de gerar)
 
 Monte uma tabela rápida: posição no capítulo → tipo (imagem ou diagrama) → estilo → o que mostra. Metas por capítulo de lesão/doença:
@@ -10,7 +21,9 @@ Monte uma tabela rápida: posição no capítulo → tipo (imagem ou diagrama) �
 - **Pelo menos 3 estilos diferentes** entre abertura e figuras de conteúdo.
 - **3D anatômico em no máximo ~40%** das figuras de conteúdo, e nunca duas figuras seguidas no mesmo estilo.
 - **Diagramas SVG: no mínimo 4** (além das tabelas), por exemplo: fluxograma de decisão, linha do tempo das fases, gráfico com um dado da evidência, mapa mental e semáforo/escala.
-- A **biblioteca de exercícios** é a exceção: use um estilo único dentro dela (coerência entre os cartões).
+- A **biblioteca de exercícios** é a exceção: use um estilo único dentro dela (coerência entre os cartões). Alterne o estilo da biblioteca entre capítulos: 3D translúcido (capítulo 12) ou **fotografia realista de estúdio, fundo grafite** (capítulo 13, aprovada). Um esquema SVG dentro de um cartão é bem-vindo quando a foto não mostra o detalhe técnico.
+- **Capítulos de base** (atuação, biomecânica, reparo, dor, avaliação, carga, exercício, recursos, emergências): 4–6 imagens e 6 ou mais diagramas. **Capítulos de lesão** (tecido e região): abertura + 5 figuras + biblioteca de 6–9 exercícios.
+- Referência de alternância aprovada (capítulo 13): abertura 3D → mecanismo em ilustração editorial → exame em fotografia clínica → ultrassom → microscopia → fotografia esportiva → biblioteca em fotografia de estúdio.
 
 ## 2. Estilos de imagem e quando usar
 
@@ -54,6 +67,7 @@ Catálogo (há exemplos prontos no capítulo modelo):
 - **Semáforo/escala** (três blocos verde, âmbar, vermelho) para monitoramento de dor ou carga.
 - **Mapa mental**: elipse central escura, 6–8 caixas coloridas ligadas por curvas douradas, 2–4 linhas de palavras-chave por caixa.
 - **Resumo visual em blocos** (`.tiles`) com os números-chave do capítulo.
-- **Mapa anatômico esquemático** simples (formas geométricas e rótulos) quando uma imagem gerada não for confiável o suficiente.
+- **Mapa anatômico esquemático** simples (formas geométricas e rótulos) quando uma imagem gerada não for confiável o suficiente, como o mapa das regras de Ottawa do capítulo 13 (zonas coloridas sobre silhuetas de perna e pé, legenda embaixo com espaço próprio).
+- **Esquema de exercício ou teste** em SVG (segmentos corporais como linhas grossas arredondadas, articulações como círculos, cotas em dourado) quando a fotografia gerada não mostra a execução correta.
 
 Ao terminar o capítulo, conte: imagens por estilo e diagramas. Se faltar variedade, troque uma figura 3D por outro estilo ou converta uma tabela em diagrama.
