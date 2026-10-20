@@ -1,0 +1,324 @@
+{
+ "titulo": "Fisioterapia Desportiva",
+ "titulo_linha1": "Fisioterapia",
+ "titulo_linha2": "Desportiva",
+ "edicao": "2027",
+ "cor_tema": "#2d4a7a",
+ "capa_imagem": "img/capa.jpg",
+ "capa_posicao": "center 40%",
+ "paginas_sumario": 5,
+ "partes": [
+  {
+   "nome": "PARTE I · BASES CIENTÍFICAS",
+   "capitulos": [
+    {
+     "n": "01",
+     "titulo": "Fisioterapia esportiva: atuação, raciocínio clínico e evidência",
+     "tema": "Fisioterapia esportiva",
+     "paginas": 7,
+     "topicos": [
+      "A especialidade e as 11 competências internacionais do fisioterapeuta esportivo",
+      "Equipe interdisciplinar e comunicação com médico e preparador físico",
+      "Raciocínio clínico: do diagnóstico cinético-funcional ao plano de tratamento",
+      "Sinais de alerta: condições graves que se disfarçam de lesão esportiva",
+      "Prática baseada em evidências e decisão compartilhada com o atleta",
+      "Ética e o fisioterapeuta diante do controle de dopagem"
+     ]
+    },
+    {
+     "n": "02",
+     "titulo": "Biomecânica do gesto esportivo",
+     "tema": "Biomecânica do gesto esportivo",
+     "paginas": 9,
+     "topicos": [
+      "Força de reação do solo, momentos e potência articular",
+      "Corrida: padrão de apoio, cadência e calçado; retreinamento da marcha como tratamento",
+      "Salto, aterrissagem e mudança de direção: corrigir o valgo dinâmico",
+      "Arremesso e gestos acima da cabeça: a cadeia cinética na reabilitação",
+      "Ciclismo, natação, raquete e combate: padrões de sobrecarga e ajustes",
+      "Análise de vídeo 2D no consultório"
+     ]
+    },
+    {
+     "n": "03",
+     "titulo": "Lesão, reparo e manejo agudo",
+     "tema": "Lesão, reparo e manejo agudo",
+     "paginas": 9,
+     "topicos": [
+      "Modelo carga-capacidade e mecanotransdução",
+      "Tempos de reparo de músculo, tendão, ligamento, cartilagem e osso",
+      "Manejo das primeiras 72 horas: PEACE & LOVE na prática",
+      "Carga precoce: quando começar a mover e quanto",
+      "Crioterapia, compressão e anti-inflamatório: indicação e limites",
+      "Imagem para o fisioterapeuta: o que muda o tratamento e o que não muda"
+     ]
+    },
+    {
+     "n": "04",
+     "titulo": "Dor no atleta: avaliação e tratamento",
+     "tema": "Dor no atleta",
+     "paginas": 8,
+     "topicos": [
+      "Dor nociceptiva, neuropática e nociplástica: como diferenciar no exame",
+      "Educação em neurociência da dor: o que dizer e como dizer",
+      "Exposição gradual e dosagem por sintomas (regra do semáforo)",
+      "Exercício como analgésico: isometria e hipoalgesia induzida",
+      "Tratando catastrofização e cinesiofobia",
+      "Infiltrações e analgésicos: o que muda no plano de reabilitação"
+     ]
+    }
+   ]
+  },
+  {
+   "nome": "PARTE II · AVALIAÇÃO, CARGA E PREVENÇÃO",
+   "capitulos": [
+    {
+     "n": "05",
+     "titulo": "Avaliação funcional e testes de desempenho",
+     "tema": "Avaliação funcional e testes de desempenho",
+     "paginas": 11,
+     "topicos": [
+      "Anamnese esportiva e exame físico orientado ao gesto",
+      "Força: dinamometria isocinética e manual",
+      "Potência e salto: plataforma de força, CMJ e hop tests",
+      "Índice de simetria entre membros: utilidade e armadilhas",
+      "Mobilidade e controle: lunge test, Y-balance e controle motor",
+      "Questionários validados: KOOS, IKDC, HAGOS, VISA-A, VISA-P, DASH, ACL-RSI",
+      "Erro de medida e mudança mínima detectável: quando o paciente melhorou de verdade"
+     ]
+    },
+    {
+     "n": "06",
+     "titulo": "Carga de treino, epidemiologia e prevenção",
+     "tema": "Carga de treino, epidemiologia e prevenção",
+     "paginas": 10,
+     "topicos": [
+      "Registro de lesões: o consenso do COI (2020)",
+      "Carga externa e interna: PSE da sessão e os limites da razão aguda:crônica",
+      "Modelos de prevenção: van Mechelen, TRIPP e Meeuwisse",
+      "Triagem pré-temporada: o que prediz e o que não prediz",
+      "Programas de prevenção na prática: aquecimento neuromuscular, nórdico e Copenhagen, com dose e progressão",
+      "Implementação e adesão"
+     ]
+    }
+   ]
+  },
+  {
+   "nome": "PARTE III · O TRATAMENTO",
+   "capitulos": [
+    {
+     "n": "07",
+     "titulo": "Exercício terapêutico: fisiologia, prescrição e progressão",
+     "tema": "Exercício terapêutico",
+     "paginas": 14,
+     "topicos": [
+      "Adaptações neurais e musculares; o destreino durante a lesão",
+      "Prescrição: intensidade, volume, repetições em reserva, frequência e descanso",
+      "Isometria, excêntrico e treino pesado e lento (HSR): quando usar cada um",
+      "Pliometria: progressão de baixa para alta intensidade",
+      "Restrição de fluxo sanguíneo (BFR): protocolo, dose e segurança",
+      "Treino neuromuscular e proprioceptivo: progressões",
+      "Condicionamento aeróbio durante a lesão: bicicleta, piscina e ergômetro de braço",
+      "Periodizar a reabilitação: as quatro fases e os critérios de passagem"
+     ]
+    },
+    {
+     "n": "08",
+     "titulo": "Recursos terapêuticos: indicação, dose e evidência",
+     "tema": "Recursos terapêuticos",
+     "paginas": 11,
+     "topicos": [
+      "Terapia manual: mobilização, manipulação e tecidos moles",
+      "Agulhamento seco, ventosa e liberação miofascial",
+      "Eletroestimulação neuromuscular após cirurgia e TENS para dor",
+      "Fotobiomodulação, ultrassom e ondas de choque: parâmetros e indicações",
+      "Crioterapia, termoterapia, compressão e hidroterapia",
+      "Bandagem funcional, bandagem elástica, órteses e palmilhas",
+      "Como combinar recursos com exercício sem perder tempo de tratamento"
+     ]
+    }
+   ]
+  },
+  {
+   "nome": "PARTE IV · LESÕES POR TECIDO",
+   "capitulos": [
+    {
+     "n": "09",
+     "titulo": "Lesão muscular: avaliação e reabilitação",
+     "tema": "Lesão muscular",
+     "paginas": 11,
+     "topicos": [
+      "Classificação (Munique e BAMIC) e prognóstico",
+      "Primeiros dias: proteção, carga precoce e o que evitar",
+      "Isquiotibiais: excêntrico em alongamento, nórdico, ponte e progressão de corrida",
+      "Reto femoral, adutores e panturrilha: exercícios específicos e progressão",
+      "Retorno à corrida de alta velocidade por etapas",
+      "Critérios de alta e prevenção da recidiva"
+     ]
+    },
+    {
+     "n": "10",
+     "titulo": "Tendinopatias: tratamento por carga",
+     "tema": "Tendinopatias",
+     "paginas": 12,
+     "topicos": [
+      "Avaliação: testes de carga, imagem e questionários",
+      "Os quatro estágios do programa: isometria, isotônico, armazenamento de energia e gesto",
+      "Aquiles porção média e insercional: protocolos excêntrico e HSR",
+      "Patelar: programa progressivo de carga e retorno ao salto",
+      "Glútea, isquiotibial proximal, manguito e epicondilalgia: educação e exercício",
+      "Adjuntos: ondas de choque, PRP e corticoide",
+      "Ruptura do tendão do calcâneo: tratamento funcional e reabilitação acelerada"
+     ]
+    },
+    {
+     "n": "11",
+     "titulo": "Osso e cartilagem: tratamento e retorno",
+     "tema": "Osso e cartilagem",
+     "paginas": 10,
+     "topicos": [
+      "Lesão óssea por estresse: tratamento por risco (baixo e alto)",
+      "Programa de retorno à corrida (caminhada-corrida) e ajustes de carga",
+      "Corrigir a causa: energia, calçado, cadência e volume",
+      "Reabilitação após cirurgia de cartilagem: carga e amplitude por fase",
+      "Osteoartrite no atleta e no ex-atleta: exercício e educação",
+      "Saúde óssea: carga de impacto como prescrição"
+     ]
+    }
+   ]
+  },
+  {
+   "nome": "PARTE V · REGIÕES DO CORPO",
+   "capitulos": [
+    {
+     "n": "12",
+     "titulo": "Joelho: tratamento e reabilitação",
+     "tema": "Joelho",
+     "paginas": 15,
+     "topicos": [
+      "Exame do joelho: testes clínicos por estrutura, testes funcionais e questionários",
+      "LCA: pré-reabilitação e tratamento não cirúrgico",
+      "Pós-reconstrução do LCA, fases 1 e 2: extensão, quadríceps, eletroestimulação e força",
+      "Pós-reconstrução do LCA, fases 3 e 4: corrida, pliometria, mudança de direção e gesto",
+      "Critérios de alta, retorno após 9 meses e prevenção da nova ruptura",
+      "Menisco: reabilitação após reparo e após meniscectomia; lesão degenerativa",
+      "Ligamento colateral medial: tratamento com órtese e progressão",
+      "Dor patelofemoral: exercícios de quadril e joelho, carga, educação, bandagem e órtese",
+      "Instabilidade patelar e síndrome do trato iliotibial: tratamento",
+      "Analgesia e eletroterapia: o que usar, como e quando",
+      "O que há de novo e o futuro do tratamento"
+     ],
+     "fragmento": "cap12.html"
+    },
+    {
+     "n": "13",
+     "titulo": "Tornozelo e pé: tratamento e reabilitação",
+     "tema": "Tornozelo e pé",
+     "paginas": 11,
+     "topicos": [
+      "Entorse lateral: órtese funcional, progressão de exercícios e treino de equilíbrio",
+      "Instabilidade crônica: fibulares, equilíbrio, salto e quando operar",
+      "Sindesmose: tratamento conservador e reabilitação pós-fixação",
+      "Impacto anterior e posterior: tratamento",
+      "Dor plantar do calcanhar: alongamento da fáscia, HSR, palmilha e ondas de choque",
+      "Antepé: hálux, sesamoides e neuroma"
+     ]
+    },
+    {
+     "n": "14",
+     "titulo": "Quadril, virilha e coxa: tratamento e reabilitação",
+     "tema": "Quadril e coxa",
+     "paginas": 11,
+     "topicos": [
+      "Dor relacionada aos adutores: programa de treino ativo e Copenhagen",
+      "Dor relacionada ao iliopsoas, inguinal e púbica: tratamento",
+      "Impacto femoroacetabular: fisioterapia ou artroscopia e reabilitação pós-artroscopia",
+      "Tendinopatia glútea: educação, exercício e manejo da carga",
+      "Isquiotibial proximal e dor glútea profunda",
+      "Contusão da coxa: posição em flexão e prevenção da miosite ossificante"
+     ]
+    },
+    {
+     "n": "15",
+     "titulo": "Membro superior: tratamento e reabilitação",
+     "tema": "Membro superior",
+     "paginas": 13,
+     "topicos": [
+      "Ombro do arremessador: alongamento posterior, escápula e rotadores",
+      "Luxação do ombro: tratamento conservador e reabilitação após cirurgia",
+      "Dor relacionada ao manguito: programa de exercícios progressivo",
+      "Epicondilalgia: carga progressiva, órtese e o que não fazer",
+      "Ligamento colateral ulnar: reabilitação conservadora e pós-reconstrução",
+      "Programas intervalados de retorno ao arremesso",
+      "Punho e mão: escafoide, fibrocartilagem triangular e dedos, com proteção para o retorno"
+     ]
+    },
+    {
+     "n": "16",
+     "titulo": "Coluna, cabeça e pescoço: tratamento e reabilitação",
+     "tema": "Coluna",
+     "paginas": 11,
+     "topicos": [
+      "Lombalgia no atleta: exercício, terapia manual e educação",
+      "Espondilólise no jovem: repouso relativo, progressão e retorno",
+      "Dor radicular: tratamento conservador e quando encaminhar",
+      "Cervicalgia e lesão de plexo braquial (queimação): tratamento",
+      "Concussão: exercício aeróbio sublimiar e retorno gradual em etapas",
+      "Reabilitação vestibular, oculomotora e cervicogênica"
+     ]
+    }
+   ]
+  },
+  {
+   "nome": "PARTE VI · RETORNO E LOCAL DE COMPETIÇÃO",
+   "capitulos": [
+    {
+     "n": "17",
+     "titulo": "Retorno ao esporte e psicologia da lesão",
+     "tema": "Retorno ao esporte e psicologia da lesão",
+     "paginas": 9,
+     "topicos": [
+      "O contínuo: retorno à participação, ao esporte e ao desempenho",
+      "Risco e tolerância ao risco: o modelo StARRT",
+      "Bateria de testes de alta: força, salto, corrida e gesto",
+      "Prontidão psicológica: avaliar e tratar o medo de nova lesão",
+      "Do controle ao caos: a progressão no ambiente de treino"
+     ]
+    },
+    {
+     "n": "18",
+     "titulo": "Emergências e cuidado no local de competição",
+     "tema": "Emergências e cuidado no local de competição",
+     "paginas": 8,
+     "topicos": [
+      "Plano de ação de emergência e material do posto",
+      "Avaliação primária, suspeita de lesão na coluna e remoção",
+      "Parada cardíaca: RCP e desfibrilador",
+      "Insolação por esforço: resfriamento por imersão; hipotermia",
+      "Luxações, fraturas e ferimentos: imobilização e encaminhamento",
+      "Bandagem e cuidado entre provas"
+     ]
+    }
+   ]
+  },
+  {
+   "nome": "PARTE VII · POPULAÇÕES ESPECIAIS",
+   "capitulos": [
+    {
+     "n": "19",
+     "titulo": "Jovem, mulher, atleta máster e paratleta",
+     "tema": "Jovem, mulher, atleta máster e paratleta",
+     "paginas": 10,
+     "topicos": [
+      "Atleta jovem: Osgood-Schlatter, Sever e lesões da placa de crescimento, com tratamento",
+      "Atleta mulher: prevenção do LCA e manejo da deficiência relativa de energia (REDs)",
+      "Pós-parto: reabilitação do assoalho pélvico e retorno progressivo à corrida",
+      "Atleta máster: tendão, sarcopenia e osteoartrite no plano de treino",
+      "Paratleta: ombro do cadeirante, amputados e adaptações do tratamento",
+      "Atleta com asma, diabetes ou hipertensão: ajustes na reabilitação"
+     ]
+    }
+   ]
+  }
+ ]
+}

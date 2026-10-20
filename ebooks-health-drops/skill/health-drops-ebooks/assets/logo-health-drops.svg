@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="140" viewBox="0 0 560 140">
+  <!-- Logo Health Drops (versão para fundo escuro: troque #ffffff por #1d2b3a em fundo claro) -->
+  <g transform="translate(10,10)">
+    <path d="M50 4 C50 4 12 50 12 76 A38 38 0 0 0 88 76 C88 50 50 4 50 4 Z" fill="none" stroke="#ffffff" stroke-width="7" stroke-linejoin="round"/>
+    <polyline points="20,80 38,80 45,64 53,96 60,72 66,80 80,80" fill="none" stroke="#d9b56a" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="120" y="92" font-family="Inter, Helvetica, Arial, sans-serif" font-weight="300" font-size="62" fill="#ffffff">health</text>
+  <text x="318" y="92" font-family="Fraunces, Georgia, serif" font-weight="700" font-size="62" fill="#d9b56a">drops</text>
+</svg>
