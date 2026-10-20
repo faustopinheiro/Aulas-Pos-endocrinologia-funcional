@@ -14,16 +14,17 @@
     {
      "n": "01",
      "titulo": "Fisioterapia esportiva: atuação, raciocínio clínico e evidência",
-     "tema": "Fisioterapia esportiva",
-     "paginas": 7,
+     "tema": "Atuação e raciocínio",
+     "paginas": 21,
      "topicos": [
       "A especialidade e as 11 competências internacionais do fisioterapeuta esportivo",
-      "Equipe interdisciplinar e comunicação com médico e preparador físico",
-      "Raciocínio clínico: do diagnóstico cinético-funcional ao plano de tratamento",
-      "Sinais de alerta: condições graves que se disfarçam de lesão esportiva",
-      "Prática baseada em evidências e decisão compartilhada com o atleta",
-      "Ética e o fisioterapeuta diante do controle de dopagem"
-     ]
+      "Equipe interdisciplinar, modelo CIF e comunicação com médico e preparador físico",
+      "Raciocínio clínico: hipóteses, diagnóstico cinético-funcional e metas SMART",
+      "Sinais de alerta e masqueraders: condições graves que se disfarçam de lesão esportiva",
+      "Prática baseada em evidências, MMD/DMCI e decisão compartilhada com o atleta",
+      "Ética, antidopagem, ferramentas para o consultório e o que há de novo"
+     ],
+     "fragmento": "cap01.html"
     },
     {
      "n": "02",
