@@ -44,16 +44,17 @@
     {
      "n": "03",
      "titulo": "Lesão, reparo e manejo agudo",
-     "tema": "Lesão, reparo e manejo agudo",
+     "tema": "Lesão e reparo",
      "paginas": 9,
      "topicos": [
-      "Modelo carga-capacidade e mecanotransdução",
-      "Tempos de reparo de músculo, tendão, ligamento, cartilagem e osso",
-      "Manejo das primeiras 72 horas: PEACE & LOVE na prática",
-      "Carga precoce: quando começar a mover e quanto",
-      "Crioterapia, compressão e anti-inflamatório: indicação e limites",
-      "Imagem para o fisioterapeuta: o que muda o tratamento e o que não muda"
-     ]
+      "Modelo carga-capacidade e mecanotransdução: a carga como tratamento",
+      "Fases do reparo e tempos de músculo, tendão, ligamento, cartilagem e osso",
+      "Avaliação aguda: regras de Ottawa, Thompson, hemartrose e sinais de emergência",
+      "Imagem para o fisioterapeuta: o que muda o tratamento e o que não muda",
+      "Primeiras 72 horas com PEACE & LOVE, carga precoce e tratamento em 4 fases",
+      "Gelo, compressão, anti-inflamatório, analgesia e o que há de novo (PRP, restrição de fluxo)"
+     ],
+     "fragmento": "cap03.html"
     },
     {
      "n": "04",
